@@ -1,9 +1,9 @@
 require 'irus_analytics/elements'
+require 'active_job'
 require 'irus_analytics/irus_analytics_logger'
 if defined?(Rails)
   require 'rails/generators'
   require 'irus_analytics/rail_tie'
-  require 'active_job'
 end
 require "irus_analytics/version"
 require "irus_analytics/controller/analytics_behaviour"
